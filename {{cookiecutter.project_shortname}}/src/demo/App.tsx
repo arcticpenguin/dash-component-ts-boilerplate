@@ -1,5 +1,5 @@
 /* eslint no-magic-numbers: 0 */
-import React, {Component} from 'react';
+import * as React, {Component} from 'react';
 
 import { {{ cookiecutter.component_name }} } from '../lib';
 
