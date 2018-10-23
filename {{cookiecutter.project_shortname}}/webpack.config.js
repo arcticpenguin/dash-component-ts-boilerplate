@@ -63,6 +63,9 @@ module.exports = (env, argv) => {
                 },
             ],
         },
+        resolve: {
+            extensions: ['.js', '.ts', '.tsx']
+        },
         devtool: mode === 'development' ? "eval-source-map" : 'none'
     }
 };
