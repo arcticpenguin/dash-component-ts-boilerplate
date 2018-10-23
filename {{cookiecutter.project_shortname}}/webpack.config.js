@@ -46,6 +46,11 @@ module.exports = (env, argv) => {
                     },
                 },
                 {
+                    test: /\.ts(x?)$/,
+                    exclude: /node_modules/,
+                    loader: `babel-loader!ts-loader`
+                },
+                {
                     test: /\.css$/,
                     use: [
                         {
