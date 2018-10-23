@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import Typed{{cookiecutter.component_name}} from './components/{{cookiecutter.component_name}}';
@@ -9,7 +9,7 @@ import Typed{{cookiecutter.component_name}} from './components/{{cookiecutter.co
  * It renders an input with the property `value`
  * which is editable by the user.
  */
-export default class {{cookiecutter.component_name}} extends React.Component {
+export default class {{cookiecutter.component_name}} extends Component {
     render() {
         return (<Typed{{cookiecutter.component_name}} {...this.props} />);
     }
