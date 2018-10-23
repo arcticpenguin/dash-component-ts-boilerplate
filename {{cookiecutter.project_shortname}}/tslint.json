@@ -4,7 +4,13 @@
         "tslint:recommended"
     ],
     "rules": {
-        "quotemark": [true, "single"]
+        "member-access": false,
+        "member-ordering": false,
+        "quotemark": [true, "single"],
+        "trailing-comma": [true, {
+            "singleline": "never",
+            "multiline": "never"
+        }]
     },
     "rulesDirectory": []
 }
