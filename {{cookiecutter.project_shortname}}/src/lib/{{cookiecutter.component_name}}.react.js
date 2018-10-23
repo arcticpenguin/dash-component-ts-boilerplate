@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Typed{{cookiecutter.component_name}} from './components/{{cookiecutter.component_name}}';

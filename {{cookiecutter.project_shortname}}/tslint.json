@@ -4,8 +4,11 @@
         "tslint:recommended"
     ],
     "rules": {
+        "arrow-parens": false,
+        "eofline": false,
         "member-access": false,
         "member-ordering": false,
+        "no-empty-interface": false,
         "quotemark": [true, "single"],
         "trailing-comma": [true, {
             "singleline": "never",

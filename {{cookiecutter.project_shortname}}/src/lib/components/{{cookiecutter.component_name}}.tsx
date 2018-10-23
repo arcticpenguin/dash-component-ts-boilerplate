@@ -46,9 +46,9 @@ export default class {{cookiecutter.component_name}} extends Component<PropsWith
                                 value: e.target.value
                             });
                         } else {
-                            this.setState({
-                                value: e.target.value
-                            })
+                             this.setState({
+                                 value: e.target.value
+                             });
                         }
                     }}
                 />
