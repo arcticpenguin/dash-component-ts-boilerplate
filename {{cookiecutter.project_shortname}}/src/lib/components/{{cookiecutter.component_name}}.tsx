@@ -1,4 +1,4 @@
-import * as React, {Component} from 'react';
+import * as React from 'react';
 
 interface IProps {
     id?: string;
@@ -20,7 +20,7 @@ type PropsWithDefaults = IProps & IDefaultProps;
  * It renders an input with the property `value`
  * which is editable by the user.
  */
-export default class {{cookiecutter.component_name}} extends Component<PropsWithDefaults> {
+export default class {{cookiecutter.component_name}} extends React.Component<PropsWithDefaults> {
     render() {
         const {id, label, setProps, value} = this.props;
 

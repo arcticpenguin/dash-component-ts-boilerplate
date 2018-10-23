@@ -1,9 +1,9 @@
 /* eslint no-magic-numbers: 0 */
-import * as React, {Component} from 'react';
+import * as React from 'react';
 
 import { {{ cookiecutter.component_name }} } from '../lib';
 
-class App extends Component {
+class App extends React.Component {
 
     constructor(props) {
         super(props);
