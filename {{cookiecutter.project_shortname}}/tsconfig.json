@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "allowJs": true,
+        "baseUrl": "./src",
+        "jsx": "react",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "strict": true,
+        "target": "esnext",
+        "traceResolution": false
+    },
+    "exclude": [
+        "tests/*"
+    ]
+}
